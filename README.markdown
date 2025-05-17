@@ -1,6 +1,6 @@
 # Intro to Machine Learning Project: Context-Aware Speech Textbot
 
-This project implements a context-aware speech textbot using pre-trained Automatic Speech Recognition (ASR) and Large Language Model (LLM) models. The system transcribes audio input using Whisper Tiny, generates context-aware responses with Llama 3.2 1B, and converts responses to speech using gTTS. The app is deployed via a Streamlit interface with a flask based backend for processing and a database for storing conversation history.
+This project implements a context-aware speech textbot using pre-trained Automatic Speech Recognition (ASR) and Large Language Model (LLM) models. The system transcribes audio input using Whisper Tiny, generates context-aware responses with Llama 3.2 1B. The app is deployed via a Streamlit interface with a flask based backend for processing and a database for storing conversation history.
 
 This README provides instructions to set up and run the code files included in the project zip, covering dependencies, required access, and execution steps for Google Colab or local environments.
 
@@ -117,4 +117,4 @@ The zip file contains the following files and folders, with their purposes:
 
 ## Notes
 - Ensure your Hugging Face token has access to `meta-llama/Llama-3.2-1B`, as it is a gated model.
-- Due to the size of the models and data files, as well as the limits imposed by github on repo size, we have excluded thse files. However, we have included setup scripts that may be run to download the files. In case of limited computational resources
+- Due to the size of the models and data files, as well as the limits imposed by github on repo size, we have excluded thse files. However, we have included setup scripts that may be run to download the files. In case of limited computational resources, please skip the fine tuning steps to integrate the base models directly
